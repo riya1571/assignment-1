@@ -94,3 +94,31 @@ nav li{
     margin-top: 37px;
     
 }
+
+/* Action section */
+
+.action-heading{
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+}
+.action-subtittle{
+    font-size: 24px;
+    color: #252432;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 116px;
+}
+.action-text-section {
+    padding-left: 141px;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+}
+.image-section {
+    padding-right: 159px;
+}
