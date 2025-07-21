@@ -205,6 +205,7 @@ nav li{
     margin-top: 137px;
    margin-left: 149px;
    margin-left: 151px;
+   margin-right: 149px;
    /* margin-bottom: 137px; */
 }
 .rating-section{
@@ -267,6 +268,9 @@ nav li{
     border-radius: 14px;
 }
 
+.rating-container2 img{
+    border-radius: 50%;
+}
 
 /* Get in Touch section */
 
@@ -275,21 +279,32 @@ nav li{
     display: flex;
     margin-left: 150px;
     margin-right: 150px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .get-in-touch-section-title{
     font-weight: 700;
     font-size: 97px;
     color: #000000;
-    width: 528px;
-    height: 232px;
+    
   
 
 }
-.form-elements form > input,form textarea,form button{
-    text-align: center;
-    width: 500px;
-    height: 70px;
+.form-elements form > input, textarea{
+    /* text-align: center; */
+    /* width: 497px;
+    height: 70px; */
+    /* padding: 20px 300px 20px 32px; */
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 270px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+   
 }
 
 .form-elements{
@@ -298,15 +313,19 @@ nav li{
     padding-left: 115px;
 }
 .get-in-touch-button{
-    padding-left: 201px;
-    padding-right: 201px;
+    padding-left: 230px;
+    padding-right: 230px;
     padding-top: 19px;
     padding-bottom: 19px;
     margin-top: 19px;
+    font-size: 16px;
 }
  .form-elements label {
     display: block;
     margin-top: 19px;
+ }
+ textarea{
+    padding-right: 230px;
  }
  
  /* footer */
@@ -319,7 +338,7 @@ nav li{
 
  .website-name{
     font-weight:900 ;
-    font-size: 100px;
+    font-size: 90px;
     color:#4E47FF ;
     text-align: center;
     padding-bottom: 8px;
@@ -328,17 +347,15 @@ nav li{
  }
  
  .footer-section-subtitle{
-    font-weight: ;
-    font-size: ;
+    font-weight: 400;
+    font-size: 20px;
     color: #8987A1;
     padding-bottom: 20px;
 
  }
 .footer-items a{
     text-decoration: none;
-    
+    margin-right: 48px;
+    color: #8987A1;
 }
-.footer-items{
-    justify-content: space-around;
 
-}
